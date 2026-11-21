@@ -1,0 +1,144 @@
+*{ 
+    margin-top: o;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(209, 219, 223);
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: rgb(180, 243, 243);
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+header{
+
+}
+
+
+.profile_image {
+    height: 160px;
+    width: 140px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    
+  
+}
+
+.header_bio{
+    float: left;
+    padding: 30px;
+
+}
+ 
+h1,h2,h3,h4,h5,h6 {
+    color: rgb(2, 98, 98);
+}
+
+.header_contact{
+    float: right;
+    
+}
+
+.header_contact a {
+    text-decoration: none;
+    color: rgb(2, 98, 98);
+    font-weight: bold;
+
+}
+
+.header_contact a:hover {
+    text-decoration: underline;
+    color: #ee3636;
+
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 2px auto;
+    border-bottom: none;
+
+}
+
+#personal-info{
+
+}
+
+.content{
+    margin-bottom: 20px;
+
+}
+
+.left-div{
+    float: left;
+    width: 30%;
+
+}
+
+.right-div{
+    float: right;
+    width: 70%;
+
+}
+
+.common-hr{
+    border: solid black 1px;
+    width: 100%;
+    margin: 2px auto;
+    border-bottom: none;
+}
+
+.date {
+    float: right;
+}
+
+.right-div-left{
+    float: left;
+    width: 35%;
+}
+
+.right-div-database{
+    float: right;
+    width: 30%;
+}
+
+.right-div-right{
+    float: left;
+    width: 35%;
+}
+
+.right-div ul {
+    margin-top: 5px;
+    padding-left: 25px;
+}
+
+.right-div li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.right-div h4 {
+    margin-bottom: 5px;
+}
+
+.right-div a {
+    text-decoration: none;
+    color: rgb(2, 98, 98);
+    font-weight: bold;
+}
+
+.right-div a:hover {
+    text-decoration: underline;
+    color: #ee3636;
+}
